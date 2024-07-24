@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Booking</title>
+    <link rel="stylesheet" href="styles/flightbooking.css">
+</head>
+<body>
+   <div class="container">
+        
+ <main>
+        
+        <section id="flight-booking">
+            <h2>Flight Booking</h2>
+            <form id="flight-form">
+                <label for="from">From:</label>
+                <input type="text" id="from" name="from" required>
+                
+                <label for="to">To:</label>
+                <input type="text" id="to" name="to" required>
+                
+                <label for="departure-date">Departure Date:</label>
+                <input type="date" id="departure-date" name="departure-date" required>
+                
+                <label for="return-date">Return Date:</label>
+                <input type="date" id="return-date" name="return-date">
+                
+                <button type="submit">Search Flights</button>
+            </form>
+        </section>
+    </main>
+   </div>
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+    const flightForm = document.getElementById('flight-form');
+   flightForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        alert('Flight search functionality not implemented.');
+    });
+
+});
+        </script>
+    </body>
+    </html>
+        
+     

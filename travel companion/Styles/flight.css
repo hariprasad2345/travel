@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 100%;
+    height: 1000px;
+    background-color: cyan;
+}
+.image img{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+}
+.header{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+}
+.flights{
+
+}
