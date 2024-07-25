@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: 1000px;
+    background-color: cyan;
+}
+.image img{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    
+}
+.header{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+}
+.flights p{
+    font-size: 20px;
+    text-align: center;
+}
+.flights h1{
+    text-align: center;
+}
+.flights img{
+    border-radius: 20px;
+
+}
+.flights button{
+    width: 300px;
+    height: 40px;
+    font-size: 30px;
+    background-color:rebeccapurple;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+ .flights button:hover{
+    background-color: blue;
+}
+.box{
+    display: flex;
+    column-gap: 60px;
+}
+.header1 h1{
+ text-align: center;
+ padding-top: 30px;
+ font-size: 50px;
+}
+.Hotels p{
+    font-size: 20px;
+    margin-left: 150px;
+}
+.Hotels img{
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 20px;
+    
+}
+.Hotels h1{
+    margin-left: 100px;
+}
+
+.Hotels button{
+    width: 300px;
+    height: 40px;
+    font-size: 30px;
+    background-color:blue;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-left: 100px;
+    margin-top: 10px;
+    color: white;
+}
+button:hover{
+    background-color:black;
+}
+.box1{
+    display: flex;
+    column-gap: 50px;
+    margin-top: 30px;
+}
+.map{
+    margin-top: 20px;
+    
+}

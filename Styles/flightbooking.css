@@ -15,7 +15,7 @@ main {
     padding: 20px;
     width: 400px;
     height: 400px;
-    background-color:orange;
+    background-image: linear-gradient(red,rgb(29, 5, 94));
    margin-left: 450px;
 }
 
